@@ -1,0 +1,64 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.opsc.maven.plugin</groupId>
+	<artifactId>jdbc-to-json</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>maven-plugin</packaging>
+
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>com.opsc.maven.plugin</groupId>
+					<artifactId>jdbc-to-json</artifactId>
+					<version>${project.version}</version>
+					<configuration>
+						<userName>${userName}</userName>
+						<password>${password}</password>
+						<dbms>${dbms}</dbms>
+						<port>${port}</port>
+						<serverOdbName>${serverOdbName}</serverOdbName>
+						<dbName>${dbName}</dbName>
+						<sid>${sid}</sid>
+						<qId>${qId}</qId>
+						<cmd>${cmd}</cmd>
+						<dbUrl>${dbUrl}</dbUrl>
+						<filename>${filename}</filename>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.maven</groupId>
+			<artifactId>maven-plugin-api</artifactId>
+			<version>3.0</version>
+		</dependency>
+
+		<!-- dependencies to annotations -->
+		<dependency>
+			<groupId>org.apache.maven.plugin-tools</groupId>
+			<artifactId>maven-plugin-annotations</artifactId>
+			<version>3.4</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.oracle.ojdbc</groupId>
+			<artifactId>ojdbc</artifactId>
+			<version>12.1.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.16.2</version>
+			<optional>true</optional>
+		</dependency>
+		
+	</dependencies>
+</project>

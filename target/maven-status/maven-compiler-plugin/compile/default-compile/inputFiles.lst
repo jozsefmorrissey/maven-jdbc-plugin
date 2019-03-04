@@ -1,0 +1,9 @@
+/home/jozsef/projects/JdbcToJson/JdbcToJson/src/main/java/com/opsc/maven/interfaces/Query.java
+/home/jozsef/projects/JdbcToJson/JdbcToJson/src/main/java/com/opsc/maven/entities/SimpleQuery.java
+/home/jozsef/projects/JdbcToJson/JdbcToJson/src/main/java/com/opsc/maven/plugin/GenSpringDbBean.java
+/home/jozsef/projects/JdbcToJson/JdbcToJson/src/main/java/com/opsc/maven/entities/OracleQuery.java
+/home/jozsef/projects/JdbcToJson/JdbcToJson/src/main/java/com/opsc/maven/entities/DerbyQuery.java
+/home/jozsef/projects/JdbcToJson/JdbcToJson/src/main/java/com/opsc/maven/Service/QueryToTable.java
+/home/jozsef/projects/JdbcToJson/JdbcToJson/src/main/java/com/opsc/maven/entities/Table.java
+/home/jozsef/projects/JdbcToJson/JdbcToJson/src/main/java/com/opsc/maven/entities/MySqlQuery.java
+/home/jozsef/projects/JdbcToJson/JdbcToJson/src/main/java/com/opsc/maven/plugin/DbToJson.java
