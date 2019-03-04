@@ -1,0 +1,3 @@
+[submodule "SqLazy"]
+	path = SqLazy
+	url = https://github.com/jozsefmorrissey/SqLazy.git
